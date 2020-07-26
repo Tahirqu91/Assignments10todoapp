@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container-fluid text-center bg-success">
+<div class="row">
+    <div class="col-md-12 ">
+       <p class="head">TO DO APP</p>
+    </div>
+    
+</div>
+</div>
+<br>
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-md-12 ">
+            <p class="head-1">Add New To Do</p>
+             <label for="input"></label>
+            <input type="text" class="input1" size="25" placeholder="ENTER TO DO" id="todoitems">  
+              <button  onclick="addTodo()" class="btn btn-info" >ADD TO DO</button> 
+         &nbsp;    <button onclick="deleteAll()" class="btn btn-info">DELETE ALL</button>
+        </div>
+        
+        <div class="container-fluid ">
+
+            <ul class="ultag" id="listitem">
+                  
+            </ul>
+      
+
+</div>
+
+
+    </div>
+    </div>
+    
+    
+
+
+
+
+
+<script src="app.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>
